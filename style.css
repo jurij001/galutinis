@@ -1,0 +1,78 @@
+header{
+    background-color: rgb(243, 228, 13);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content:left;
+}
+.logo{
+    height: 60px;
+    padding-left: 15px;}
+    
+.mygtukas{
+    display: flex;
+    justify-content: right;
+
+    }
+
+.cars {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+      
+    .car {
+     width: 50%;
+    background-color: rgb(234, 234, 234);
+    margin-bottom: 30px;
+    position: relative;
+    }
+      
+    .car-image-section {
+    height: 60px;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    }
+      
+    .title-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 140px;
+    margin-top: 30px;
+    }
+      
+    .title {
+     font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+      
+    .button-section {
+     display: flex;
+     justify-content: right;
+    }
+      
+    .button {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    height: 45px;
+    background-color: blue;
+    color:azure;
+    border: none;
+    }
+      
+    .price {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    }
+      
